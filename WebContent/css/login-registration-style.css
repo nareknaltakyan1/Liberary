@@ -1,0 +1,88 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0px;
+	background-color: #292f43;
+}
+
+.login-register {
+	max-width: 1280px;
+	width:500px;
+	height: auto;
+	
+	margin: auto;
+	margin-top: 150px;
+}
+
+input {
+	width: 450px;
+	height: 45px;
+	border: none;
+	border: 1px solid #e1e1e1;
+	border-radius: 4px;
+	padding-left: 35px;
+	font-size: 16px;
+	background-color: #FFFFFF !important;
+}
+
+.button {
+	display: inline-block;
+	border-radius: 7px;
+	background-color: #f4511e;
+	border: none;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	padding: 10px;
+	width: 487px;
+	transition: all 0.5s;
+	cursor: pointer;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.icon-user-small {
+	background:
+		url("http://vahramtorosyan.com/reps/icons/icon-user-small.png")
+		no-repeat 5px center;
+}
+
+.icon-email {
+	background: url("http://vahramtorosyan.com/reps/icons/icon-email.png")
+		no-repeat 5px center;
+}
+
+.icon-mobile {
+	background: url("http://vahramtorosyan.com/reps/icons/icon-mobile.png")
+		no-repeat 5px center;
+}
+
+.icon-password {
+	background: url("http://vahramtorosyan.com/reps/icons/icon-box.png")
+		no-repeat 5px center;
+}
+
+
